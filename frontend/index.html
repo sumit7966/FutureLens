@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FutureLens</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f5f7fb;
+    }
+
+    h1 {
+      margin-top: 20px;
+    }
+
+    input {
+      width: 60%;
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 10px 15px;
+      margin-left: 5px;
+      cursor: pointer;
+      border: none;
+      background: #007bff;
+      color: white;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+
+    .format {
+      margin: 10px;
+      padding: 10px;
+      background: white;
+      display: inline-block;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .download-btn {
+      background: green;
+    }
+
+    .download-btn:hover {
+      background: darkgreen;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>FutureLens 🚀</h1>
+
+<input type="text" id="url" placeholder="Paste YouTube URL">
+<button onclick="processVideo()">Process</button>
+
+<h3>Available Downloads</h3>
+<div id="formats"></div>
+
+<script src="src/js/main.js"></script>
+
+</body>
+</html>
